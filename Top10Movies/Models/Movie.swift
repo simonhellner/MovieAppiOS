@@ -1,10 +1,3 @@
-//
-//  Movie.swift
-//  Top10Movies
-//
-//  Created by Simon Hellner on 2022-02-11.
-//
-
 import ObjectMapper
 typealias Movies = [Movie]
 
@@ -14,6 +7,8 @@ class Movie : Mappable{
     var name: String!
     var backdropUrl: String!
     
+    // These are optional since they're only
+    // used for movie details
     var overview: String?
     var voteAverage: Double?
     var runtime: Int?

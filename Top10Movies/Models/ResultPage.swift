@@ -1,13 +1,6 @@
-//
-//  ResultPage.swift
-//  Top10Movies
-//
-//  Created by Simon Hellner on 2022-02-14.
-//
-
 import ObjectMapper
 
-class ResultPage<T>: Mappable{
+class ResultPage: Mappable{
     
     var page: Int!
     var results: Array<Movie>!

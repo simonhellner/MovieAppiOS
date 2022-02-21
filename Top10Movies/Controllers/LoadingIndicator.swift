@@ -1,5 +1,7 @@
 import UIKit
 
+// This is not a Controller so it probably
+// shouldn't be in the Controller folder
 class LoadingIndicator: UIView {
     var indicatorSpinner = UIActivityIndicatorView()
     

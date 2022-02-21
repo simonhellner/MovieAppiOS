@@ -10,7 +10,7 @@ class MovieViewModel: NSObject{
     
     var movieCellModels = [Movie]() {
         didSet {
-            moviesLoaded?()
+            moviesLoaded!()
          }
      }
     
